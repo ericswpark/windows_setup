@@ -4,11 +4,16 @@ These are the scripts I use to set up a new Windows machine.
 
 ## IMPORTANT
 
-Windows restricts running PowerShell scripts by default. To relax this policy, you MUST run:
+Windows restricts running PowerShell scripts by default. To relax this policy, follow these steps:
+
+1. Press the Windows key and the R key.
+2. Type `powershell`
+3. Press Ctrl and Shift and Enter. Answer the UAC prompt.
+4. Type the following command:
 
 	Set-ExecutionPolicy AllSigned
 
-in a PowerShell prompt. If you do not run this, the script will fail.
+5. Press `y` and Enter to accept the changes.
 
 ## Quick installation
 
