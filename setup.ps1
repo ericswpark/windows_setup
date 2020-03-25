@@ -7,6 +7,7 @@ choco feature enable -n allowGlobalConfirmation -y
 # Install browsers
 choco install googlechrome
 choco install firefox
+choco install tor-browser
 
 # Install mail client
 choco install thunderbird
@@ -16,6 +17,10 @@ choco install veracrypt
 choco install 7zip
 choco install winscp
 choco install procexp
+
+# NOTE - remove once subscription expires
+# Install VPNs
+choco install expressvpn
 
 # Install video players
 choco install vlc
@@ -32,9 +37,17 @@ choco install git
 choco install nodejs
 choco install putty
 choco install python
+choco install arduino
+
+# Install social tools
+choco install slack
+choco install telegram
 
 # IMPORTANT - Remove after graduating from school
-# Install Office 365 ProPlus (with license)
-choco install office365proplus
+# Install Office 365
+choco install office365business
 
+# Install games/launchers
+choco install steam
+choco install minecraft
 
