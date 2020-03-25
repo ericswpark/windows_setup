@@ -17,6 +17,7 @@ choco install veracrypt
 choco install 7zip
 choco install winscp
 choco install procexp
+choco install bitwarden
 
 # NOTE - remove once subscription expires
 # Install VPNs
@@ -38,6 +39,7 @@ choco install nodejs
 choco install putty
 choco install python
 choco install arduino
+choco install jetbrainstoolbox
 
 # Install social tools
 choco install slack
@@ -51,3 +53,6 @@ choco install office365business
 choco install steam
 choco install minecraft
 
+# Install 3D tools
+choco install blender
+choco install sheepit-client
