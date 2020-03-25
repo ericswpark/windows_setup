@@ -12,3 +12,4 @@ choco install potplayer
 choco install vscode
 choco install atom
 choco install 7zip.install
+choco install notepadplusplus.install
