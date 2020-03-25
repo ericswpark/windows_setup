@@ -10,3 +10,4 @@ choco install veracrypt
 choco install vlc
 choco install potplayer
 choco install vscode
+choco install atom
