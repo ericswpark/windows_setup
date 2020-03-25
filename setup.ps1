@@ -5,7 +5,7 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.We
 choco feature enable -n allowGlobalConfirmation -y
 
 # Install essentials
-choco install chrome
+choco install googlechrome
 choco install veracrypt
 choco install vlc
 choco install potplayer
