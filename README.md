@@ -2,21 +2,14 @@
 
 These are the scripts I use to set up a new Windows machine.
 
-## IMPORTANT
-
-Windows restricts running PowerShell scripts by default. To relax this policy, follow these steps:
-
-1. Press the Windows key and the R key.
-2. Type `powershell`
-3. Press Ctrl and Shift and Enter. Answer the UAC prompt.
-4. Type the following command:
-
-	Set-ExecutionPolicy AllSigned
-
-5. Press `y` and Enter to accept the changes.
-
 ## Quick installation
 
-Copy and paste into PowerShell, and go!
+Copy and paste into administrative PowerShell, and go!
 
 	Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/ideaman924/windows_setup/master/setup.ps1'))
+
+## Customization
+
+If you want to customize the list of applications that Chocolatey installs, you must set your execution policy in PowerShell to AllSigned or less restrictive. Not doing so will prevent your downloaded script from running.
+
+All Chocolatey scripts must run as administrator.
