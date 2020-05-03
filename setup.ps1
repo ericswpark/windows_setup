@@ -32,7 +32,6 @@ choco install itunes
 
 # Install developer tools
 choco install vscode
-choco install atom
 choco install notepadplusplus
 choco install git
 choco install nodejs
