@@ -43,7 +43,7 @@ choco install atom
 choco install notepadplusplus
 choco install git
 choco install nodejs
-choco install putty
+choco install putty.install
 choco install python
 choco install arduino
 choco install jetbrainstoolbox
