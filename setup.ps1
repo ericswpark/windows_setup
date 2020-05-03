@@ -18,7 +18,7 @@ choco install googlechrome firefox tor-browser
 choco install veracrypt 7zip winscp procexp bitwarden
 
 # Install media
-choco install vlc potplayer itunes
+choco install vlc potplayer itunes plex
 
 # Install developer tools
 choco install vscode notepadplusplus git nodejs putty.install python jetbrainstoolbox
