@@ -38,16 +38,11 @@ choco install git
 choco install nodejs
 choco install putty.install
 choco install python
-choco install arduino
 choco install jetbrainstoolbox
 
 # Install social tools
 choco install slack
 choco install telegram
-
-# IMPORTANT - Remove after graduating from school
-# Install Office 365
-choco install office365business
 
 # Install games/launchers
 choco install steam
