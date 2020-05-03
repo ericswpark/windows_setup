@@ -16,9 +16,6 @@ choco install googlechrome
 choco install firefox
 choco install tor-browser
 
-# Install mail client
-choco install thunderbird
-
 # Install utilities
 choco install veracrypt
 choco install 7zip
