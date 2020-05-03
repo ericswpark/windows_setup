@@ -1,4 +1,12 @@
-# Install chocolatey
+# Install chocolatey if not installed
+$testchoco = powershell choco -v
+if(-not($testchoco)){
+    Write-Output "Chocolatey is not installed, installing now..."
+    Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
+}
+else{
+    Write-Output "Chocolatey is already installed, version $testchoco. Skipping installation..."
+}
 Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
 
 # Do not ask for script running permissions
