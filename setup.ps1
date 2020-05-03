@@ -12,41 +12,22 @@ else{
 choco feature enable -n allowGlobalConfirmation -y
 
 # Install browsers
-choco install googlechrome
-choco install firefox
-choco install tor-browser
+choco install googlechrome firefox tor-browser
 
 # Install utilities
-choco install veracrypt
-choco install 7zip
-choco install winscp
-choco install procexp
-choco install bitwarden
+choco install veracrypt 7zip winscp procexp bitwarden
 
-# Install video players
-choco install vlc
-choco install potplayer
-
-# Install media players
-choco install itunes
+# Install media
+choco install vlc potplayer itunes
 
 # Install developer tools
-choco install vscode
-choco install notepadplusplus
-choco install git
-choco install nodejs
-choco install putty.install
-choco install python
-choco install jetbrainstoolbox
+choco install vscode notepadplusplus git nodejs putty.install python jetbrainstoolbox
 
 # Install social tools
-choco install slack
-choco install telegram
+choco install slack telegram
 
 # Install games/launchers
-choco install steam
-choco install minecraft
+choco install steam minecraft
 
 # Install 3D tools
-choco install blender
-choco install sheepit-client
+choco install blender sheepit-client
