@@ -23,10 +23,6 @@ choco install winscp
 choco install procexp
 choco install bitwarden
 
-# NOTE - remove once subscription expires
-# Install VPNs
-choco install expressvpn
-
 # Install video players
 choco install vlc
 choco install potplayer
