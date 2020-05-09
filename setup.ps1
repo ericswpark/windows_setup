@@ -10,23 +10,17 @@ if(Test-Path -Path "$env:ProgramData\Chocolatey") {
 # Do not ask for script running permissions
 choco feature enable -n allowGlobalConfirmation -y
 
-# Install browsers
-choco install googlechrome firefox tor-browser
+# EDIT THIS LINE IF YOU WANT TO CUSTOMIZE PACKAGES INSTALLED
+$packages = 'googlechrome', 'firefox', 'tor-browser',
+'veracrypt', '7zip', 'winscp', 'procexp', 'bitwarden',
+'vlc', 'potplayer', 'itunes', 'plex',
+'vscode', 'git', 'notepadplusplus', 'nodejs', 'putty.install', 'python', 'jetbrainstoolbox',
+'slack', 'telegram',
+'steam', 'minecraft',
+'blender', 'sheepit-client'
 
-# Install utilities
-choco install veracrypt 7zip winscp procexp bitwarden
+ForEach($package in $packages) {
+    choco install $package
+}
 
-# Install media
-choco install vlc potplayer itunes plex
-
-# Install developer tools
-choco install vscode notepadplusplus git nodejs putty.install python jetbrainstoolbox
-
-# Install social tools
-choco install slack telegram
-
-# Install games/launchers
-choco install steam minecraft
-
-# Install 3D tools
-choco install blender sheepit-client
+Write-Output "Done! Enjoy your new Windows box."
