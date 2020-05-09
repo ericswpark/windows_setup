@@ -1,11 +1,10 @@
 # Install chocolatey if not installed
-$testchoco = powershell choco -v
-if(-not($testchoco)){
+if(Test-Path -Path "$env:ProgramData\Chocolatey") {
+    $chocoversion = powershell choco -v
+    Write-Output "Chocolatey is already installed, version $chocoversion. Skipping installation..."
+} else {
     Write-Output "Chocolatey is not installed, installing now..."
     Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
-}
-else{
-    Write-Output "Chocolatey is already installed, version $testchoco. Skipping installation..."
 }
 
 # Do not ask for script running permissions
