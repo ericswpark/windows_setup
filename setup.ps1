@@ -13,7 +13,7 @@ choco feature enable -n allowGlobalConfirmation -y
 # EDIT THIS LINE IF YOU WANT TO CUSTOMIZE PACKAGES INSTALLED
 $packages = 'googlechrome', 'firefox', 'tor-browser',
 'veracrypt', '7zip', 'winscp', 'procexp', 'bitwarden',
-'vlc', 'potplayer', 'itunes', 'plex',
+'vlc', 'itunes', 'plex',
 'vscode', 'git', 'notepadplusplus', 'nodejs', 'putty.install', 'python', 'jetbrainstoolbox',
 'slack', 'telegram',
 'steam', 'minecraft',
