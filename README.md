@@ -6,7 +6,7 @@ These are the scripts I use to set up a new Windows machine.
 
 Copy and paste into administrative PowerShell, and go!
 
-	Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/ideaman924/windows_setup/master/setup.ps1'))
+	Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/ericswpark/windows_setup/master/setup.ps1'))
 
 ## Customization
 
