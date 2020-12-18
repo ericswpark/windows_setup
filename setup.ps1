@@ -19,8 +19,7 @@ $packages = 'firefox', 'tor-browser',
 'vscode', 'git.install', 'gitkraken', 'notepadplusplus.install', 'nodejs', 'putty.install', 'python3', 'jetbrainstoolbox', 'openjdk',
 'slack', 'telegram',
 'steam', 'minecraft', 'uplay', 'epicgameslauncher',
-'blender',
-'toggl'
+'blender'
 
 ForEach($package in $packages) {
     choco install $package
