@@ -18,7 +18,7 @@ $packages = 'firefox', 'tor-browser',
 'vlc', 'mpv.install',
 'vscode', 'git.install', 'gitkraken', 'notepadplusplus.install', 'nodejs', 'putty.install', 'python3', 'jetbrainstoolbox', 'openjdk',
 'slack', 'telegram',
-'steam', 'minecraft', 'uplay', 'epicgameslauncher',
+'steam', 'minecraft', 'uplay', 'epicgameslauncher','goggalaxy',
 'blender'
 
 ForEach($package in $packages) {
