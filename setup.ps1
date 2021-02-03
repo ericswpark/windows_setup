@@ -18,7 +18,7 @@ $packages = 'firefox', 'tor-browser',
 'vlc', 'mpv.install',
 'audacity',
 'vscode', 'git.install', 'gitkraken', 'notepadplusplus.install', 'nodejs', 'putty.install', 'python3', 'jetbrainstoolbox', 'openjdk',
-'slack', 'telegram',
+'slack', 'telegram', 'discord.install',
 'steam', 'minecraft', 'uplay', 'epicgameslauncher','goggalaxy',
 'blender'
 
