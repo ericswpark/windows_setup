@@ -19,7 +19,7 @@ $packages = 'firefox', 'tor-browser',
 'audacity',
 'vscode', 'git.install', 'gitkraken', 'notepadplusplus.install', 'nodejs', 'putty.install', 'python3', 'jetbrainstoolbox', 'openjdk',
 'slack', 'telegram', 'discord.install', 'signal',
-'steam', 'minecraft', 'uplay', 'epicgameslauncher','goggalaxy',
+'steam', 'minecraft',
 'blender'
 
 ForEach($package in $packages) {
