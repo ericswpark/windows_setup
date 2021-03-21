@@ -4,7 +4,7 @@ if(Test-Path -Path "$env:ProgramData\Chocolatey") {
     Write-Output "Chocolatey is already installed, version $chocoversion. Skipping installation..."
 } else {
     Write-Output "Chocolatey is not installed, installing now..."
-    Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
+    iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
 }
 
 # Do not ask for script running permissions
