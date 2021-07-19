@@ -13,7 +13,6 @@ choco feature enable -n allowGlobalConfirmation -y
 # EDIT THIS LINE IF YOU WANT TO CUSTOMIZE PACKAGES INSTALLED
 $packages = 'firefox', 'tor-browser',
 'veracrypt', 'cryptomator',
-'mullvad-vpn',
 'bitwarden',
 '7zip.install', 'winscp', 'procexp', 'hwmonitor', 'gpg4win', 'crystaldiskmark', 'crystaldiskinfo', 'qbittorrent',
 'vlc', 'mpv.install',
