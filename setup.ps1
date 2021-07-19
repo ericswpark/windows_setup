@@ -18,7 +18,7 @@ $packages = 'firefox', 'tor-browser',
 '7zip.install', 'winscp', 'procexp', 'hwmonitor', 'gpg4win', 'crystaldiskmark', 'crystaldiskinfo', 'qbittorrent',
 'vlc', 'mpv.install',
 'vscode', 'git.install', 'gitkraken', 'notepadplusplus.install', 'nodejs', 'putty.install', 'python3', 'jetbrainstoolbox', 'openjdk', 'docker-desktop',
-'slack', 'telegram', 'discord.install', 'signal',
+'slack', 'telegram', 'discord.install',
 'steam', 'minecraft',
 'blender',
 'logitech-options'
