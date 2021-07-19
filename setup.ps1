@@ -11,16 +11,7 @@ if(Test-Path -Path "$env:ProgramData\Chocolatey") {
 choco feature enable -n allowGlobalConfirmation -y
 
 # EDIT THIS LINE IF YOU WANT TO CUSTOMIZE PACKAGES INSTALLED
-$packages = 'firefox', 'tor-browser',
-'veracrypt', 'cryptomator',
-'bitwarden',
-'7zip.install', 'winscp', 'procexp', 'hwmonitor', 'gpg4win', 'crystaldiskmark', 'crystaldiskinfo', 'qbittorrent',
-'vlc', 'mpv.install',
-'vscode', 'git.install', 'gitkraken', 'notepadplusplus.install', 'nodejs', 'putty.install', 'python3', 'jetbrainstoolbox', 'openjdk', 'docker-desktop',
-'slack', 'telegram', 'discord.install',
-'steam', 'minecraft',
-'blender',
-'logitech-options'
+$packages = 'firefox', 'bitwarden', '7zip.install', 'qbittorrent', 'vlc'
 
 ForEach($package in $packages) {
     choco install $package
