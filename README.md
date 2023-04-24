@@ -20,6 +20,14 @@ Set-ExecutionPolicy Bypass -Scope Process -Force
 
 Note that this applies only to the current PowerShell window. If you run PowerShell again, you will have to set the execution policy again.
 
+### Drivers
+
+This setup script does not install drivers. You must manually install drivers suited for your computer after running this setup script.
+
+I've thought about automatically detecting devices and initiating driver installations, but a) we have Windows Update, which most computers support nowadays (and if they don't, stop buying from that crappy OEM), and b) it would be very error-prone, and c) graphics drivers are a fickle beast and if something goes wrong then you'd have to run a program to wipe the driver away from safe mode and try again, which is annoying.
+
+For these reasons, driver installation is also a manual process.
+
 # Structure
 
 This repository has a bunch of routines in the `routines/` folder. Each of those routine scripts are designed to run standalone.
