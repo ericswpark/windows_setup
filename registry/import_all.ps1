@@ -1,0 +1,1 @@
+Get-ChildItem -Path $PSScriptRoot -Filter *.reg -Recurse | ForEach-Object {reg.exe import $_.FullName /s}
