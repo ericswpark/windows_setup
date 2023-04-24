@@ -11,6 +11,7 @@ GnuPG.Gpg4win
 CrystalDewWorld.CrystalDiskMark
 CrystalDewWorld.CrystalDiskInfo
 qBittorrent.qBittorrent
+tailscale.tailscale
 '@ -split [environment]::NewLine
 
 foreach ($Program in $Programs) {
