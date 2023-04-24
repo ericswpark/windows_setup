@@ -2,7 +2,7 @@
 # Thanks to u/Ill_Branch1293 on Reddit for the source! Find it in the URL below:
 # https://www.reddit.com/r/sysadmin/comments/s1iomh/comment/hw0soe4/
 
-Write-Host "Turning off News and Interests..."
+Write-Host "Turning off 'News and Interests...'"
 Write-Host "Warning: this will close Windows Explorer and all running tasks."
 
 TASKKILL /IM explorer.exe /F
