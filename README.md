@@ -2,7 +2,15 @@
 
 Work in progress. Will eat your computer.
 
-## Execution policy
+## Caveats
+
+### winget
+
+winget must be manually installed for now by going to the Microsoft Store and installing the "App Installer" app.
+
+I haven't found a good way of automatically installing winget via a PowerShell script (yet).
+
+### Execution policy
 
 Windows's default execution policy is to only run scripts and programs blessed by a certain corporation in Redmond, Washington. If you want to run the scripts here, you need to run the following inside the current PowerShell window:
 
