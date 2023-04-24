@@ -17,7 +17,7 @@ winget install --id "Mozilla.Firefox"
 #       grab a new copy.
 $torbrowser_location = "$env:LOCALAPPDATA\Tor Browser"
 $torbrowser_executable_location = "$torbrowser_location\Browser\firefox.exe"
-if (-not(Test-Path -Path "$torbrowser_location" -PathType Leaf)) {
+if (-not(Test-Path -Path "$torbrowser_executable_location" -PathType Leaf)) {
     Write-Host "Can't find Tor Browser in your local appdata. Installing now..."
     winget install -e -i --id=TorProject.TorBrowser --location="$torbrowser_location" --source=winget --scope=user
 } else {
