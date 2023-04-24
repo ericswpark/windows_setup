@@ -6,7 +6,7 @@ Work in progress. Will eat your computer.
 
 ### winget
 
-winget must be manually installed for now by going to the Microsoft Store and installing the "App Installer" app.
+winget must be manually installed for now by [going to the Microsoft Store and installing the "App Installer" app](https://www.microsoft.com/p/app-installer/9nblggh4nns1#activetab=pivot:overviewtab).
 
 I haven't found a good way of automatically installing winget via a PowerShell script (yet).
 
