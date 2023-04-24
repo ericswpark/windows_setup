@@ -1,7 +1,14 @@
 # Turns off the Weather and News icon in the task bar
-# Thanks to u/Fallingdamage on Reddit for the source! Find it in the URL below:
-# https://www.reddit.com/r/sysadmin/comments/s1iomh/comment/hw0ubxy/
+# Thanks to u/Ill_Branch1293 on Reddit for the source! Find it in the URL below:
+# https://www.reddit.com/r/sysadmin/comments/s1iomh/comment/hw0soe4/
 
-Set-ItemProperty -Path "HKCU:\SOFTWARE\Microsoft\Windows\CurrentVersion\Feeds" -Name "IsFeedsAvailable" -Type DWord -Value 0
-Set-ItemProperty -Path "HKCU:\SOFTWARE\Microsoft\Windows\CurrentVersion\Feeds" -Name "ShellFeedsTaskbarViewMode" -Type DWord -Value 2
-Set-ItemProperty -Path "HKLM:\SOFTWARE\Policies\Microsoft\Windows\Windows Feeds" -Name "EnableFeeds" -Type DWord -Value 0
+Write-Host "Turning off News and Interests..."
+Write-Host "Warning: this will close Windows Explorer and all running tasks."
+
+TASKKILL /IM explorer.exe /F
+
+Set-ItemProperty -Path "HKCU:\Software\Microsoft\Windows\CurrentVersion\Feeds" -Name "ShellFeedsTaskbarViewMode" -Type DWord -Value 2
+
+Start-Process explorer.exe
+
+Write-Host "Done! News and Interests is now off."
