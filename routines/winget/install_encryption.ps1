@@ -6,9 +6,8 @@ $Programs = @'
 Cryptomator.Cryptomator
 '@ -split [environment]::NewLine
 
-foreach ($Program in $Programs) {
-    Winget install --id $Program
-}
+. ".\install_programs.ps1"
+install_programs("encryption", $Programs)
 
 # Workaround for VeraCrypt failing to install
 # See https://github.com/microsoft/winget-pkgs/issues/69241#issuecomment-1211675482
