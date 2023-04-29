@@ -9,4 +9,4 @@ Discord.Discord
 '@ -split [environment]::NewLine
 
 . ".\install_programs.ps1"
-install_programs("social", $Programs)
+.\install_programs("social", $Programs)

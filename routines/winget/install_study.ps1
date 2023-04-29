@@ -7,4 +7,4 @@ Joplin.Joplin
 '@ -split [environment]::NewLine
 
 . ".\install_programs.ps1"
-install_programs("study", $Programs)
+.\install_programs("study", $Programs)

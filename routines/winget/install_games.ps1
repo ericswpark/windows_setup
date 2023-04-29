@@ -8,4 +8,4 @@ Mojang.MinecraftLauncher
 '@ -split [environment]::NewLine
 
 . ".\install_programs.ps1"
-install_programs("games", $Programs)
+.\install_programs("games", $Programs)

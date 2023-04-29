@@ -10,4 +10,4 @@ Jellyfin.JellyfinMediaPlayer
 '@ -split [environment]::NewLine
 
 . ".\install_programs.ps1"
-install_programs("media", $Programs)
+.\install_programs("media", $Programs)

@@ -7,4 +7,4 @@ BlenderFoundation.Blender
 '@ -split [environment]::NewLine
 
 . ".\install_programs.ps1"
-install_programs("3d", $Programs)
+.\install_programs("3d", $Programs)

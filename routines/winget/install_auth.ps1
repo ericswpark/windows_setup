@@ -7,4 +7,4 @@ Bitwarden.Bitwarden
 '@ -split [environment]::NewLine
 
 . ".\install_programs.ps1"
-install_programs("auth", $Programs)
+.\install_programs("auth", $Programs)
