@@ -7,4 +7,4 @@ Logitech.OptionsPlus
 '@ -split [environment]::NewLine
 
 . ".\install_programs.ps1"
-.\install_programs("logitech_drivers", $Programs)
+installPrograms -Caller "logitech_drivers" -Programs $Programs

@@ -7,7 +7,7 @@ Cryptomator.Cryptomator
 '@ -split [environment]::NewLine
 
 . ".\install_programs.ps1"
-.\install_programs("encryption", $Programs)
+installPrograms -Caller "encryption" -Programs $Programs
 
 # Workaround for VeraCrypt failing to install
 # See https://github.com/microsoft/winget-pkgs/issues/69241#issuecomment-1211675482

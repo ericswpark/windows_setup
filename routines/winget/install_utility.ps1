@@ -15,4 +15,4 @@ tailscale.tailscale
 '@ -split [environment]::NewLine
 
 . ".\install_programs.ps1"
-.\install_programs("utility", $Programs)
+installPrograms -Caller "utility" -Programs $Programs

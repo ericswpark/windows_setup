@@ -16,4 +16,4 @@ Microsoft.WindowsTerminal
 '@ -split [environment]::NewLine
 
 . ".\install_programs.ps1"
-.\install_programs("developer", $Programs)
+installPrograms -Caller "developer" -Programs $Programs
