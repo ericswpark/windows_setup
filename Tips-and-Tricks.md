@@ -32,7 +32,7 @@ Professional
 - Boot the installer
 - On the "Install now" page, do not click on the button.
 - Press Shift+F10
-- Type "regedit"
+- Type `regedit`
 - Navigate to `HKEY_LOCAL_MACHINE\SYSTEM\Setup`
 - Right click on the `Setup` key and select "New > Key"
 - Name the new key `LabConfig`
@@ -51,3 +51,5 @@ Then do the following:
 #### For machines with no secure boot support
 
 - `BypassSecureBootCheck` -> `1`
+
+Once you're done, close out of `regedit` and the command prompt and proceed with the installation as usual.
