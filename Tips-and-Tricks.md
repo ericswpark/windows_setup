@@ -27,7 +27,7 @@ Professional
 - In ImgBurn, drag the extracted files and folders with the modified `ei.cfg` file included into the source box on the left. Then set the appropriate options:
   - Under "Options", change "File System" to "UDF".
   - Under "Advanced > Bootable Disc", check "Make Image Bootable", then set the following options:
-    - Boot Image: `efi\microsoft\boot\efisys.bin`
+    - Boot Image: Set it to this file `efi\microsoft\boot\efisys.bin` inside the extracted contents you extracted earlier
     - Platform ID: UEFI
     - Developer ID: `Microsoft Corporation`
     - Load Segment: Leave as default at `07C0`
