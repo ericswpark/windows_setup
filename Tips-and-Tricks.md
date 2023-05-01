@@ -24,6 +24,14 @@ Professional
 ```
 
 - Recreate the `.iso` file with something like ImgBurn.
+- In ImgBurn, drag the extracted files and folders with the modified `ei.cfg` file included into the source box on the left. Then set the appropriate options:
+  - Under "Options", change "File System" to "UDF".
+  - Under "Advanced > Bootable Disc", check "Make Image Bootable", then set the following options:
+    - Boot Image: `efi\microsoft\boot\efisys.bin`
+    - Platform ID: UEFI
+    - Developer ID: `Microsoft Corporation`
+    - Load Segment: Leave as default at `07C0`
+    - Sectors To Load: `1`
 
 ## Windows 11
 
