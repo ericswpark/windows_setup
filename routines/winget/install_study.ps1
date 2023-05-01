@@ -4,7 +4,7 @@
 
 $Programs = @'
 Joplin.Joplin
-'@ -split [environment]::NewLine
+'@
 
 . ".\install_programs.ps1"
 installPrograms -Caller "study" -Programs $Programs

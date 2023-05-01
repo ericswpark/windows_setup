@@ -4,7 +4,7 @@
 
 $Programs = @'
 BlenderFoundation.Blender
-'@ -split [environment]::NewLine
+'@
 
 . ".\install_programs.ps1"
 installPrograms -Caller "3d" -Programs $Programs

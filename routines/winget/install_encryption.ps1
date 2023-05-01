@@ -4,7 +4,7 @@
 
 $Programs = @'
 Cryptomator.Cryptomator
-'@ -split [environment]::NewLine
+'@
 
 . ".\install_programs.ps1"
 installPrograms -Caller "encryption" -Programs $Programs

@@ -5,7 +5,7 @@
 $Programs = @'
 Valve.Steam
 Mojang.MinecraftLauncher
-'@ -split [environment]::NewLine
+'@
 
 . ".\install_programs.ps1"
 installPrograms -Caller "games" -Programs $Programs

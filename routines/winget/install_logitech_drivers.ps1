@@ -4,7 +4,7 @@
 
 $Programs = @'
 Logitech.OptionsPlus
-'@ -split [environment]::NewLine
+'@
 
 . ".\install_programs.ps1"
 installPrograms -Caller "logitech_drivers" -Programs $Programs

@@ -2,11 +2,13 @@
 function installPrograms {
     param(
         [string]$Caller,
-        [string[]]$Programs
+        [string]$Programs
     )
+	
+	$ProgramsArray = $Programs -split [Environment]::NewLine
 
     Write-Host "Starting installation of $Caller programs..."
-    foreach ($Program in $Programs) {
+    foreach ($Program in $ProgramsArray) {
         Write-Host "{$Caller}: Installing $Program..."
         winget install --id $Program
     }

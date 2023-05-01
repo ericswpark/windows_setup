@@ -13,7 +13,7 @@ JetBrains.Toolbox
 EclipseAdoptium.Temurin.17.JDK
 Docker.DockerDesktop
 Microsoft.WindowsTerminal
-'@ -split [environment]::NewLine
+'@
 
 . ".\install_programs.ps1"
 installPrograms -Caller "developer" -Programs $Programs

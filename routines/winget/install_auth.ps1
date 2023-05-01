@@ -4,7 +4,7 @@
 
 $Programs = @'
 Bitwarden.Bitwarden
-'@ -split [environment]::NewLine
+'@
 
 . ".\install_programs.ps1"
 installPrograms -Caller "auth" -Programs $Programs

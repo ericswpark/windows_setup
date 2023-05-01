@@ -7,7 +7,7 @@ VideoLAN.VLC
 clsid2.mpc-hc
 Plex.Plex
 Jellyfin.JellyfinMediaPlayer
-'@ -split [environment]::NewLine
+'@
 
 . ".\install_programs.ps1"
 installPrograms -Caller "media" -Programs $Programs

@@ -6,7 +6,7 @@ $Programs = @'
 SlackTechnologies.Slack
 Telegram.TelegramDesktop
 Discord.Discord
-'@ -split [environment]::NewLine
+'@
 
 . ".\install_programs.ps1"
 installPrograms -Caller "social" -Programs $Programs

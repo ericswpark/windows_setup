@@ -12,7 +12,7 @@ CrystalDewWorld.CrystalDiskMark
 CrystalDewWorld.CrystalDiskInfo
 qBittorrent.qBittorrent
 tailscale.tailscale
-'@ -split [environment]::NewLine
+'@
 
 . ".\install_programs.ps1"
 installPrograms -Caller "utility" -Programs $Programs
