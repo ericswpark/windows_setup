@@ -32,19 +32,6 @@ I've thought about automatically detecting devices and initiating driver install
 
 For these reasons, driver installation is also a manual process.
 
-### Problems with winget
-
-#### Rest source internal error
-
-I have no idea what causes this. It seems to go away after a while. I try to do the following:
-
-- Make sure all updates are installed from Windows Update
-- Make sure all updates are installed from the Microsoft Store
-- Make sure that the Microsoft Store app itself is updated
-- Update winget sources with `winget sources update`
-
-It's rather weird that I haven't been able to find anything online referencing this problem. I am guessing that maybe I am running into this error because I am attempting a winget installation right after installing Windows, and because there isn't enough time for some subsystem to initialize the error occurs until I let the system sit for a while. If anybody knows why this error occurs please submit an issue and I will update this part accordingly!
-
 
 # Structure
 
