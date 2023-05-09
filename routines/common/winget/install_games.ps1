@@ -4,6 +4,7 @@
 
 $Programs = @'
 Valve.Steam
+GOG.Galaxy
 Mojang.MinecraftLauncher
 '@
 
