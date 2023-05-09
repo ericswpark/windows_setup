@@ -10,6 +10,6 @@ function installPrograms {
     Write-Host "Starting installation of $Caller programs..."
     foreach ($Program in $ProgramsArray) {
         Write-Host "{$Caller}: Installing $Program..."
-        winget install --id $Program
+        winget install --exact --id $Program
     }
 }
