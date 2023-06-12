@@ -12,6 +12,7 @@ CrystalDewWorld.CrystalDiskMark
 CrystalDewWorld.CrystalDiskInfo
 qBittorrent.qBittorrent
 tailscale.tailscale
+CodeSector.TeraCopy
 '@
 
 . ".\install_programs.ps1"
