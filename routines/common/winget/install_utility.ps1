@@ -13,6 +13,7 @@ CrystalDewWorld.CrystalDiskInfo
 qBittorrent.qBittorrent
 tailscale.tailscale
 CodeSector.TeraCopy
+AntibodySoftware.WizTree
 '@
 
 . ".\install_programs.ps1"
