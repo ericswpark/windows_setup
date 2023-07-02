@@ -12,7 +12,7 @@ CrystalDewWorld.CrystalDiskMark
 CrystalDewWorld.CrystalDiskInfo
 qBittorrent.qBittorrent
 tailscale.tailscale
-CodeSector.TeraCopy
+FastCopy.FastCopy
 AntibodySoftware.WizTree
 '@
 
