@@ -12,6 +12,7 @@ Python.Python.3.11
 JetBrains.Toolbox
 EclipseAdoptium.Temurin.17.JDK
 Microsoft.WindowsTerminal
+Rustlang.Rustup
 '@
 
 . ".\install_programs.ps1"
