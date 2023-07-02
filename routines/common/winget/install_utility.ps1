@@ -14,6 +14,7 @@ qBittorrent.qBittorrent
 tailscale.tailscale
 FastCopy.FastCopy
 AntibodySoftware.WizTree
+Microsoft.PowerToys
 '@
 
 . ".\install_programs.ps1"
