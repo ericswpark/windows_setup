@@ -11,7 +11,6 @@ PuTTY.PuTTY
 Python.Python.3.11
 JetBrains.Toolbox
 EclipseAdoptium.Temurin.17.JDK
-Docker.DockerDesktop
 Microsoft.WindowsTerminal
 '@
 
