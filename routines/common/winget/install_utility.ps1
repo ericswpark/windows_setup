@@ -15,7 +15,7 @@ tailscale.tailscale
 FastCopy.FastCopy
 AntibodySoftware.WizTree
 Microsoft.PowerToys
-gurnec.HashCheckShellExtension
+namazso.OpenHashTab
 '@
 
 . ".\install_programs.ps1"
