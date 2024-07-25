@@ -3,7 +3,7 @@
 # Find programs from https://winget.run/
 
 $Programs = @'
-Joplin.Joplin
+Obsidian.Obsidian
 '@
 
 . ".\install_programs.ps1"
