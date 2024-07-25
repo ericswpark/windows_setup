@@ -5,7 +5,6 @@
 $Programs = @'
 VideoLAN.VLC
 clsid2.mpc-hc
-Plex.Plex
 Jellyfin.JellyfinMediaPlayer
 '@
 
