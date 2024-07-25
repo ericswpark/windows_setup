@@ -2,6 +2,9 @@
 # Prerequisite: winget must be installed!
 # Find programs from https://winget.run/
 
+# Install Google Chrome
+winget install --id "Google.Chrome"
+
 # Install Mozilla Firefox
 winget install --id "Mozilla.Firefox"
 
