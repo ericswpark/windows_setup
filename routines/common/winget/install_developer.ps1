@@ -8,7 +8,6 @@ Git.Git
 Notepad++.Notepad++
 OpenJS.NodeJS
 PuTTY.PuTTY
-Python.Python.3.11
 JetBrains.Toolbox
 EclipseAdoptium.Temurin.19.JDK
 Microsoft.WindowsTerminal
