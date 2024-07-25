@@ -10,7 +10,7 @@ OpenJS.NodeJS
 PuTTY.PuTTY
 Python.Python.3.11
 JetBrains.Toolbox
-EclipseAdoptium.Temurin.17.JDK
+EclipseAdoptium.Temurin.19.JDK
 Microsoft.WindowsTerminal
 Rustlang.Rustup
 '@
