@@ -4,9 +4,6 @@
 
 $Programs = @'
 Valve.Steam
-GOG.Galaxy
-EpicGames.EpicGamesLauncher
-Mojang.MinecraftLauncher
 '@
 
 . ".\install_programs.ps1"
