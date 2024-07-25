@@ -16,7 +16,6 @@ FastCopy.FastCopy
 AntibodySoftware.WizTree
 Microsoft.PowerToys
 namazso.OpenHashTab
-voidtools.Everything
 '@
 
 . ".\install_programs.ps1"
