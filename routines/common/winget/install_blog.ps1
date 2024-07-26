@@ -4,6 +4,7 @@
 
 $Programs = @'
 Hugo.Hugo.Extended
+GoLang.Go
 '@
 
 . ".\install_programs.ps1"
