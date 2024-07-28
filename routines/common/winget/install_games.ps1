@@ -5,6 +5,7 @@
 $Programs = @'
 Valve.Steam
 HeroicGamesLauncher.HeroicGamesLauncher
+PrismLauncher.PrismLauncher
 '@
 
 . ".\install_programs.ps1"
