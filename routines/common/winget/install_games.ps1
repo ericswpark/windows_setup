@@ -8,5 +8,7 @@ HeroicGamesLauncher.HeroicGamesLauncher
 PrismLauncher.PrismLauncher
 '@
 
-. ".\install_programs.ps1"
+$scriptpath = $MyInvocation.MyCommand.Path
+$dir = Split-Path $scriptpath
+. "$dir\install_programs.ps1"
 installPrograms -Caller "games" -Programs $Programs

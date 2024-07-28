@@ -6,5 +6,7 @@ $Programs = @'
 Mozilla.Thunderbird
 '@
 
-. ".\install_programs.ps1"
+$scriptpath = $MyInvocation.MyCommand.Path
+$dir = Split-Path $scriptpath
+. "$dir\install_programs.ps1"
 installPrograms -Caller "productivity" -Programs $Programs

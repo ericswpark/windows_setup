@@ -6,7 +6,9 @@ $Programs = @'
 Cryptomator.Cryptomator
 '@
 
-. ".\install_programs.ps1"
+$scriptpath = $MyInvocation.MyCommand.Path
+$dir = Split-Path $scriptpath
+. "$dir\install_programs.ps1"
 installPrograms -Caller "encryption" -Programs $Programs
 
 # Workaround for VeraCrypt failing to install

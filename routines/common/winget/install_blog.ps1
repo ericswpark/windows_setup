@@ -7,5 +7,7 @@ Hugo.Hugo.Extended
 GoLang.Go
 '@
 
-. ".\install_programs.ps1"
+$scriptpath = $MyInvocation.MyCommand.Path
+$dir = Split-Path $scriptpath
+. "$dir\install_programs.ps1"
 installPrograms -Caller "blog" -Programs $Programs

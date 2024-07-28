@@ -6,5 +6,7 @@ $Programs = @'
 Bitwarden.Bitwarden
 '@
 
-. ".\install_programs.ps1"
+$scriptpath = $MyInvocation.MyCommand.Path
+$dir = Split-Path $scriptpath
+. "$dir\install_programs.ps1"
 installPrograms -Caller "auth" -Programs $Programs

@@ -2,11 +2,15 @@
 # Prerequisite: winget must be installed!
 # Find programs from https://winget.run/
 
-# Install Google Chrome
-winget install --id "Google.Chrome"
+$Programs = @'
+Google.Chrome
+Mozilla.Firefox
+'@
 
-# Install Mozilla Firefox
-winget install --id "Mozilla.Firefox"
+$scriptpath = $MyInvocation.MyCommand.Path
+$dir = Split-Path $scriptpath
+. "$dir\install_programs.ps1"
+installPrograms -Caller "browsers" -Programs $Programs
 
 # Install Tor Browser
 # Note: because Tor Browser is "special", it installs itself as a portable executable.

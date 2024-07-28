@@ -8,5 +8,7 @@ clsid2.mpc-hc
 Jellyfin.JellyfinMediaPlayer
 '@
 
-. ".\install_programs.ps1"
+$scriptpath = $MyInvocation.MyCommand.Path
+$dir = Split-Path $scriptpath
+. "$dir\install_programs.ps1"
 installPrograms -Caller "media" -Programs $Programs

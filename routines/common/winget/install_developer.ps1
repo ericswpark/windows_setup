@@ -14,5 +14,7 @@ Microsoft.WindowsTerminal
 Rustlang.Rustup
 '@
 
-. ".\install_programs.ps1"
+$scriptpath = $MyInvocation.MyCommand.Path
+$dir = Split-Path $scriptpath
+. "$dir\install_programs.ps1"
 installPrograms -Caller "developer" -Programs $Programs
