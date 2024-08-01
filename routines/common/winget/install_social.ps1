@@ -3,6 +3,7 @@
 # Find programs from https://winget.run/
 
 $Programs = @'
+OpenWhisperSystems.Signal
 SlackTechnologies.Slack
 Telegram.TelegramDesktop
 Discord.Discord
