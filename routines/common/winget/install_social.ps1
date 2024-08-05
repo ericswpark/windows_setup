@@ -7,6 +7,7 @@ OpenWhisperSystems.Signal
 SlackTechnologies.Slack
 Telegram.TelegramDesktop
 Discord.Discord
+Element.Element
 '@
 
 $scriptpath = $MyInvocation.MyCommand.Path
