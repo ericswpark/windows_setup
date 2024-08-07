@@ -16,6 +16,7 @@ FastCopy.FastCopy
 AntibodySoftware.WizTree
 Microsoft.PowerToys
 namazso.OpenHashTab
+LocalSend.LocalSend
 '@
 
 $scriptpath = $MyInvocation.MyCommand.Path
