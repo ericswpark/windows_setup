@@ -4,6 +4,7 @@
 
 $Programs = @'
 Cryptomator.Cryptomator
+WinFsp.WinFsp
 '@
 
 $scriptpath = $MyInvocation.MyCommand.Path
