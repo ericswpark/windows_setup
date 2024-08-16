@@ -6,6 +6,7 @@ $Programs = @'
 VideoLAN.VLC
 clsid2.mpc-hc
 Jellyfin.JellyfinMediaPlayer
+IrfanSkiljan.IrfanView
 '@
 
 $scriptpath = $MyInvocation.MyCommand.Path
