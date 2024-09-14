@@ -2,6 +2,8 @@
 
 Work in progress. Will eat your computer.
 
+Warning: some of the setup scripts are only suitable for my workflow, and may need to be adapted to suit your own needs. (The Fork button may be useful!)
+
 ## Caveats
 
 ### winget
