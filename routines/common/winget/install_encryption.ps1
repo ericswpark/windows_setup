@@ -3,8 +3,6 @@
 # Find programs from https://winget.run/
 
 $Programs = @'
-Cryptomator.Cryptomator
-WinFsp.WinFsp
 '@
 
 $scriptpath = $MyInvocation.MyCommand.Path
