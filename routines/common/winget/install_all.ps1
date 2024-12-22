@@ -1,7 +1,7 @@
 $excludedScripts = @("install_all.ps1", "install_program.ps1")
 
 $scripts = Get-ChildItem -Path $PSScriptRoot -Filter "install_*.ps1" | Where-Object {
-    $_.Name -notin $excludeFiles
+    $_.Name -notin $excludedScripts
 }
 
 foreach ($script in $scripts) {
