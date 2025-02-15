@@ -9,7 +9,7 @@ Notepad++.Notepad++
 OpenJS.NodeJS
 PuTTY.PuTTY
 JetBrains.Toolbox
-EclipseAdoptium.Temurin.19.JDK
+EclipseAdoptium.Temurin.21.JDK
 Microsoft.WindowsTerminal
 Rustlang.Rustup
 '@
