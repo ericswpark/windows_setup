@@ -18,6 +18,7 @@ Microsoft.PowerToys
 namazso.OpenHashTab
 LocalSend.LocalSend
 Martchus.syncthingtray
+REALiX.HWiNFO
 '@
 
 $scriptpath = $MyInvocation.MyCommand.Path
