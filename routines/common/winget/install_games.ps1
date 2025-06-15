@@ -6,6 +6,7 @@ $Programs = @'
 Valve.Steam
 HeroicGamesLauncher.HeroicGamesLauncher
 PrismLauncher.PrismLauncher
+Zagrios.BSManager
 '@
 
 $scriptpath = $MyInvocation.MyCommand.Path
