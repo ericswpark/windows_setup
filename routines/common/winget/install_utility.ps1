@@ -17,6 +17,7 @@ AntibodySoftware.WizTree
 Microsoft.PowerToys
 namazso.OpenHashTab
 LocalSend.LocalSend
+Martchus.syncthingtray
 '@
 
 $scriptpath = $MyInvocation.MyCommand.Path
