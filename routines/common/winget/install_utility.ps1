@@ -19,6 +19,7 @@ namazso.OpenHashTab
 LocalSend.LocalSend
 Martchus.syncthingtray
 REALiX.HWiNFO
+ajeetdsouza.zoxide
 '@
 
 $scriptpath = $MyInvocation.MyCommand.Path
