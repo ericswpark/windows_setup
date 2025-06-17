@@ -7,6 +7,7 @@ VideoLAN.VLC
 clsid2.mpc-hc
 Jellyfin.JellyfinMediaPlayer
 IrfanSkiljan.IrfanView
+IrfanSkiljan.IrfanView.Plugins
 '@
 
 $scriptpath = $MyInvocation.MyCommand.Path
