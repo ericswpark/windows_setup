@@ -11,7 +11,7 @@ GnuPG.Gpg4win
 CrystalDewWorld.CrystalDiskMark
 CrystalDewWorld.CrystalDiskInfo
 qBittorrent.qBittorrent
-tailscale.tailscale
+Tailscale.Tailscale
 FastCopy.FastCopy
 AntibodySoftware.WizTree
 Microsoft.PowerToys
