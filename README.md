@@ -24,7 +24,15 @@ Set-ExecutionPolicy Bypass -Scope Process -Force
 
 Note that this applies only to the current PowerShell window. If you run PowerShell again, you will have to set the execution policy again.
 
-Note that I provide a runner batch script for running the main PowerShell script. This runner sets the appropriate execution policy, so you don't have to.
+If you want to set it for the current user, run:
+
+```powershell
+Set-ExecutionPolicy RemoteSigned -Scope CurrentUser -Force
+```
+
+Note: `RemoteSigned` requires that scripts downloaded from the Internet be signed. If you did not clone this repository with `git`, you may still need to use the command above to set the execution policy to `Bypass` until the main programs are installed.
+
+I also provide a runner batch script for running the main PowerShell script. This runner sets the appropriate execution policy, so you don't have to.
 
 ### Drivers
 
