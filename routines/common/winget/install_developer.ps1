@@ -12,6 +12,7 @@ JetBrains.Toolbox
 EclipseAdoptium.Temurin.21.JDK
 Microsoft.WindowsTerminal
 Rustlang.Rustup
+Bruno.Bruno
 '@
 
 $scriptpath = $MyInvocation.MyCommand.Path
