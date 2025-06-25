@@ -13,6 +13,7 @@ EclipseAdoptium.Temurin.21.JDK
 Microsoft.WindowsTerminal
 Rustlang.Rustup
 Bruno.Bruno
+Python.Python.3.13
 '@
 
 $scriptpath = $MyInvocation.MyCommand.Path
