@@ -20,6 +20,7 @@ LocalSend.LocalSend
 Martchus.syncthingtray
 REALiX.HWiNFO
 ajeetdsouza.zoxide
+Gyan.FFmpeg
 '@
 
 $scriptpath = $MyInvocation.MyCommand.Path
