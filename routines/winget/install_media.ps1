@@ -5,6 +5,7 @@
 $Programs = @'
 VideoLAN.VLC
 clsid2.mpc-hc
+MPC-BE.MPC-BE
 Jellyfin.JellyfinMediaPlayer
 IrfanSkiljan.IrfanView
 IrfanSkiljan.IrfanView.PlugIns
