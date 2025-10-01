@@ -4,6 +4,7 @@
 
 $Programs = @'
 Obsidian.Obsidian
+Typst.Typst
 '@
 
 $scriptpath = $MyInvocation.MyCommand.Path
