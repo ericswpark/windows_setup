@@ -21,6 +21,7 @@ Martchus.syncthingtray
 REALiX.HWiNFO
 ajeetdsouza.zoxide
 Gyan.FFmpeg
+AutoHotkey.AutoHotkey
 '@
 
 $scriptpath = $MyInvocation.MyCommand.Path
