@@ -14,6 +14,7 @@ Microsoft.WindowsTerminal
 Rustlang.Rustup
 Bruno.Bruno
 Python.Python.3.13
+pnpm.pnpm
 '@
 
 $scriptpath = $MyInvocation.MyCommand.Path
