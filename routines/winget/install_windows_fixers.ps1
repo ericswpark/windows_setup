@@ -10,6 +10,5 @@ $dir = Split-Path $scriptpath
 . "$dir\install_programs.ps1"
 installPrograms -Caller "windows_fix" -Programs $Programs
 
-# Open-Shell needs to be installed separately as the interactive installer lets
-# you uncheck the Shell Toolbar.
-winget install --exact --interactive --id Open-Shell.Open-Shell-Menu
+# Open-Shell needs to be installed separately to remove the Shell Toolbar
+winget install --exact --id Open-Shell.Open-Shell-Menu --override "ADDLOCAL=Update,OpenShell,StartMenu"
