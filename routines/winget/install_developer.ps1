@@ -13,7 +13,7 @@ EclipseAdoptium.Temurin.24.JDK
 Microsoft.WindowsTerminal
 Rustlang.Rustup
 Bruno.Bruno
-Python.Python.3.13
+Python.Python.3.14
 pnpm.pnpm
 '@
 
