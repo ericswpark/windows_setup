@@ -3,7 +3,7 @@
 # Find programs from https://winget.run/
 
 $Programs = @'
-Microsoft.VisualStudioCode
+ZedIndustries.Zed
 Git.Git
 Notepad++.Notepad++
 OpenJS.NodeJS
