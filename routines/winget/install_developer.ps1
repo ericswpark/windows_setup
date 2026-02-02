@@ -14,7 +14,6 @@ Microsoft.WindowsTerminal
 Rustlang.Rustup
 Bruno.Bruno
 Python.Python.3.14
-pnpm.pnpm
 Oven-sh.Bun
 '@
 
