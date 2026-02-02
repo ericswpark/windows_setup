@@ -10,7 +10,6 @@ CPUID.HWMonitor
 GnuPG.Gpg4win
 CrystalDewWorld.CrystalDiskMark
 CrystalDewWorld.CrystalDiskInfo
-qBittorrent.qBittorrent
 Tailscale.Tailscale
 FastCopy.FastCopy
 AntibodySoftware.WizTree
