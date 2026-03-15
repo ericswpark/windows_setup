@@ -14,6 +14,7 @@ Rustlang.Rustup
 Bruno.Bruno
 Python.Python.3.14
 Oven-sh.Bun
+Microsoft.PowerShell
 '@
 
 $scriptpath = $MyInvocation.MyCommand.Path
