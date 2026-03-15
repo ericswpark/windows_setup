@@ -1,8 +1,8 @@
 # Windows setup scripts
 
-Work in progress. Will eat your computer.
+Setup scripts I use to set up a Windows machine to my liking.
 
-Warning: some of the setup scripts are only suitable for my workflow, and may need to be adapted to suit your own needs. (The Fork button may be useful!)
+Warning: some of the setup scripts are obviously only suitable for my workflow, and may need to be adapted to suit your own needs.
 
 ## Caveats
 
