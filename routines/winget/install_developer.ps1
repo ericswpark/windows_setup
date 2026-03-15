@@ -7,7 +7,6 @@ ZedIndustries.Zed
 Git.Git
 Notepad++.Notepad++
 OpenJS.NodeJS
-PuTTY.PuTTY
 JetBrains.Toolbox
 EclipseAdoptium.Temurin.24.JDK
 Microsoft.WindowsTerminal
